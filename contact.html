@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me - Obedson Uchenna</title>
+    <link rel="stylesheet" href="portfo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+    <!-- Header Navigation -->
+    <header class="header">
+        <div class="logo">
+            <a href="portfolio.html"><h1><span>{ /</span> Obedson <span>/ }</span></h1></a>
+        </div>
+
+                <nav class="nav" id="navbar">
+            <a href="portfolio.html">home</a>
+            <a href="about.html">about</a>
+            <a href="skills.html">skills</a>
+            <a href="services.html">services</a>
+            <a href="projects.html">projects</a>
+            <a href="experiences.html">experience</a>
+            <a href="contact.html" class="active">contact</a>
+        </nav>
+
+        <div class="header-right">
+            <div class="logo-txt">
+                <a href="contact.html"><p>let's talk</p></a>
+            </div>
+            <button class="menu-btn" id="menu-btn" aria-label="Toggle Navigation">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- Page Header & Breadcrumb -->
+    <div class="page-header">
+        <div class="breadcrumb">
+            <a href="portfolio.html"><i class="fa-solid fa-house"></i> Home</a>
+            <span class="sep">/</span>
+            <span class="current">Contact</span>
+        </div>
+        <div class="section-heading">
+            <h4>LET'S BUILD TOGETHER</h4>
+            <h1>Contact <span>Me</span></h1>
+            <div class="div">
+                <div class="gradient"></div>
+                <p>Have an exciting project idea, a role to discuss, or need technical consulting? Let's connect!</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact Section -->
+    <main class="contact-section">
+        <div class="contact-container">
+            <div class="contact-layout">
+                <!-- Left: Contact Details -->
+                <div class="contact-info-col">
+                    <div class="contact-intro">
+                        <h3>Let's talk about your next project</h3>
+                        <p>I'm always excited to collaborate on innovative web applications, scalable backend systems, or community-driven developer initiatives.</p>
+                    </div>
+
+                    <div class="info-cards-list">
+                        <div class="info-card">
+                            <div class="info-card-icon">
+                                <i class="fa-solid fa-location-dot"></i>
+                            </div>
+                            <div class="info-card-text">
+                                <span class="label">Location</span>
+                                <span class="val">Enugu, Nigeria (Available Globally / Remote)</span>
+                            </div>
+                        </div>
+
+                        <div class="info-card">
+                            <div class="info-card-icon">
+                                <i class="fa-solid fa-envelope"></i>
+                            </div>
+                            <div class="info-card-text">
+                                <span class="label">Email Address</span>
+                                <a href="mailto:obedsonuchenna@gmail.com" class="val">obedsonuchenna@gmail.com</a>
+                            </div>
+                        </div>
+
+                        <div class="info-card">
+                            <div class="info-card-icon">
+                                <i class="fa-solid fa-clock"></i>
+                            </div>
+                            <div class="info-card-text">
+                                <span class="label">Availability</span>
+                                <span class="val">Open for Freelance & Full-time Roles</span>
+                            </div>
+                        </div>
+
+                        <div class="info-card">
+                            <div class="info-card-icon">
+                                <i class="fa-solid fa-calendar-check"></i>
+                            </div>
+                            <div class="info-card-text">
+                                <span class="label">Working Hours</span>
+                                <span class="val">Monday – Saturday (9:00 AM – 6:00 PM WAT)</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact-socials-box">
+                        <h4>Connect Across Social Platforms</h4>
+                        <div class="socials-row">
+                            <a href="https://github.com/obedson/" target="_blank" rel="noopener noreferrer" class="social-pill">
+                                <i class="fa-brands fa-github"></i> GitHub
+                            </a>
+                            <a href="https://www.linkedin.com/in/obedson-uchenna" target="_blank" rel="noopener noreferrer" class="social-pill">
+                                <i class="fa-brands fa-linkedin-in"></i> LinkedIn
+                            </a>
+                            <a href="https://x.com/obedsonfield" target="_blank" rel="noopener noreferrer" class="social-pill">
+                                <i class="fa-brands fa-x-twitter"></i> X (Twitter)
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right: Contact Form -->
+                <div class="contact-form-card">
+                    <h3>Send a Direct Message</h3>
+                    <p>Fill out the form below and I will respond to your inquiry within 24 hours.</p>
+
+                    <form class="contact-form" id="contact-form">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="user-name">Your Name <span>*</span></label>
+                                <input type="text" id="user-name" class="form-input" placeholder="e.g. John Doe" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="user-email">Email Address <span>*</span></label>
+                                <input type="email" id="user-email" class="form-input" placeholder="e.g. john@example.com" required>
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="user-subject">Subject</label>
+                                <input type="text" id="user-subject" class="form-input" placeholder="e.g. Project Consultation">
+                            </div>
+                            <div class="form-group">
+                                <label for="user-service">Service Needed</label>
+                                <select id="user-service" class="form-select">
+                                    <option value="Full Stack Development">Full Stack Web Development</option>
+                                    <option value="Backend API Engineering">Backend & API Engineering</option>
+                                    <option value="Database Architecture">Database & Supabase Design</option>
+                                    <option value="GenAI Integration">GenAI Integration & Tools</option>
+                                    <option value="Mentorship & Training">Mentorship & Community Training</option>
+                                    <option value="Other">Other / General Inquiry</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="user-message">Your Message <span>*</span></label>
+                            <textarea id="user-message" class="form-textarea" placeholder="Tell me about your project, timeline, and goals..." required></textarea>
+                        </div>
+
+                        <button type="submit" class="form-submit-btn" id="submit-btn">
+                            Send Message <i class="fa-solid fa-paper-plane"></i>
+                        </button>
+
+                        <div class="form-alert" id="form-alert">
+                            <i class="fa-solid fa-circle-check"></i>
+                            <span id="alert-text">Message sent successfully! I'll get back to you shortly.</span>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <!-- FAQ / Quick Questions -->
+            <div class="values-container" style="margin-top: 60px;">
+                <div class="section-heading" style="margin-bottom: 25px;">
+                    <h4>FREQUENTLY ASKED</h4>
+                    <h1>Quick <span>Answers</span></h1>
+                    <div class="div">
+                        <div class="gradient"></div>
+                        <p>A few common questions clients and collaborators ask</p>
+                    </div>
+                </div>
+
+                <div class="values-grid">
+                    <div class="value-card">
+                        <div class="value-icon"><i class="fa-solid fa-stopwatch"></i></div>
+                        <h3>What is your typical turnaround time?</h3>
+                        <p>Project kick-off typically occurs within 24 to 48 hours of initial scoping. Delivery schedules depend on project scope and are strictly honored.</p>
+                    </div>
+
+                    <div class="value-card">
+                        <div class="value-icon"><i class="fa-solid fa-globe"></i></div>
+                        <h3>Are you open to remote work?</h3>
+                        <p>Yes! I work efficiently with remote and distributed teams across different timezones, using GitHub, Slack, Zoom, and agile task boards.</p>
+                    </div>
+
+                    <div class="value-card">
+                        <div class="value-icon"><i class="fa-solid fa-handshake"></i></div>
+                        <h3>Do you accept freelance and contract roles?</h3>
+                        <p>Definitely. Whether you require a short sprint, MVP development, or a long-term dedicated software engineer, I am available.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-brand">
+                <a href="portfolio.html"><h2><span>{ /</span> Obedson <span>/ }</span></h2></a>
+                <p>Full Stack Software Developer & GenAI Enthusiast based in Enugu, Nigeria. Crafting scalable web solutions and building vibrant tech communities.</p>
+            </div>
+
+            <div class="footer-nav">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="portfolio.html">Home</a></li>
+                    <li><a href="about.html">About Me</a></li>
+                    <li><a href="skills.html">Skills</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="experiences.html">Experience</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-contact">
+                <h4>Connect</h4>
+                <p><i class="fa-solid fa-location-dot"></i> Enugu, Nigeria</p>
+                <p><i class="fa-solid fa-envelope"></i> obedsonuchenna@gmail.com</p>
+                <div class="footer-socials">
+                    <a href="https://github.com/obedson/" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/obedson-uchenna" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="https://x.com/obedsonfield" target="_blank" rel="noopener noreferrer" aria-label="X (Twitter)"><i class="fa-brands fa-x-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2026 Obedson Uchenna. All rights reserved. Designed with passion.</p>
+        </div>
+    </footer>
+
+    <!-- Form & Navigation Scripts -->
+    <script>
+        // Navigation toggle
+        const menuBtn = document.getElementById('menu-btn');
+        const nav = document.getElementById('navbar');
+
+        if (menuBtn && nav) {
+            menuBtn.addEventListener('click', (e) => {
+                e.stopPropagation();
+                nav.classList.toggle('active');
+                menuBtn.classList.toggle('active');
+                const icon = menuBtn.querySelector('i');
+                if (icon) {
+                    if (nav.classList.contains('active')) {
+                        icon.classList.remove('fa-bars');
+                        icon.classList.add('fa-xmark');
+                    } else {
+                        icon.classList.remove('fa-xmark');
+                        icon.classList.add('fa-bars');
+                    }
+                }
+            });
+
+            // Close nav when clicking a nav link
+            nav.querySelectorAll('a').forEach(link => {
+                link.addEventListener('click', () => {
+                    nav.classList.remove('active');
+                    menuBtn.classList.remove('active');
+                    const icon = menuBtn.querySelector('i');
+                    if (icon) {
+                        icon.classList.remove('fa-xmark');
+                        icon.classList.add('fa-bars');
+                    }
+                });
+            });
+
+            // Close nav when clicking outside
+            document.addEventListener('click', (e) => {
+                if (!nav.contains(e.target) && !menuBtn.contains(e.target) && nav.classList.contains('active')) {
+                    nav.classList.remove('active');
+                    menuBtn.classList.remove('active');
+                    const icon = menuBtn.querySelector('i');
+                    if (icon) {
+                        icon.classList.remove('fa-xmark');
+                        icon.classList.add('fa-bars');
+                    }
+                }
+            });
+        }
+
+        // Contact Form Handling
+        const contactForm = document.getElementById('contact-form');
+        const formAlert = document.getElementById('form-alert');
+        const alertText = document.getElementById('alert-text');
+        const submitBtn = document.getElementById('submit-btn');
+
+        if (contactForm && formAlert) {
+            contactForm.addEventListener('submit', (e) => {
+                e.preventDefault();
+                const name = document.getElementById('user-name').value.trim();
+                
+                // Show loading state
+                submitBtn.disabled = true;
+                submitBtn.innerHTML = 'Sending... <i class="fa-solid fa-spinner fa-spin"></i>';
+
+                setTimeout(() => {
+                    submitBtn.disabled = false;
+                    submitBtn.innerHTML = 'Send Message <i class="fa-solid fa-paper-plane"></i>';
+                    formAlert.className = 'form-alert success';
+                    alertText.textContent = `Thank you, ${name}! Your message has been sent successfully. I'll get back to you shortly.`;
+                    formAlert.style.display = 'flex';
+                    contactForm.reset();
+
+                    setTimeout(() => {
+                        formAlert.style.display = 'none';
+                    }, 6000);
+                }, 800);
+            });
+        }
+    </script>
+</body>
+
+</html>
